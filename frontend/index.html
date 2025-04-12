@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>AI Powered Food Tracker - NutriSnap | The Code Warriors</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <div class="hero-bg" id="particles-js"> 
+        <img src="images/1.jpeg" class="floating-planet" style="position:absolute; top:0%; left:0%; width:50%;height:900px; opacity:0.3; z-index:0;">
+        <img src="images/2.jpeg" class="floating-ufo" style="position:absolute; top:0%; right:0%; width:50%;height:900px; opacity:0.3; z-index:0;">        
+        <div class="container">
+            <header>
+                <h1 class="title animate-header">NutriSnap</h1>
+                <p class="subtitle">Unleashed by The Code Warriors</p>
+            </header>
+            <main class="auth-portal animate-portal">
+                <h2 id="form-title" class="portal-title">Enter the Verse</h2>
+                <form id="auth-form" class="auth-form">
+                    <div class="input-orbit">
+                        <input type="text" id="username" placeholder="Your Alias" required class="input-field animate-input">
+                        <span class="orbit-ring"></span>
+                    </div>
+                    <div class="input-orbit">
+                        <input type="password" id="password" placeholder="Your Key" required class="input-field animate-input">
+                        <span class="orbit-ring"></span>
+                    </div>
+                    <button type="submit" id="auth-btn" class="btn-galactic animate-btn">Launch</button>
+                </form>
+                <p id="toggle-auth" class="toggle-text">New Explorer? <a href="#" onclick="toggleForm()">Register Here</a></p>
+                <p id="auth-error" class="error-text"></p>
+            </main>
+            <div class="cosmic-decor">
+                <span class="decor-star animate-star">✨</span>
+                <span class="decor-star animate-star">🌟</span>
+                <span class="decor-star animate-star">⭐</span>
+            </div>
+            <footer>
+                <p>The Code Warriors | Hackathon 2025 - Galactic Edition</p>
+            </footer>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="login.js"></script>
+</body>
+</html>

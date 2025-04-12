@@ -47,5 +47,3 @@ visit 127.0.0.1:8000 on your browser
 - Upload a food image → see real-time detected items.
 - Each item shows its name, calories, protein, carbs, and fat.
 - All entries are stored in SQLite for history tracking.
-
-
